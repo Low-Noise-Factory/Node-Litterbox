@@ -31,7 +31,7 @@ ENV HOME=/home/${USER}
 USER ${USER}
 ```
 
-### In GitHub actions
+### In GitHub Actions
 
 To use this as an image to run CI/CD jobs in, you can adapt the following to your needs:
 
