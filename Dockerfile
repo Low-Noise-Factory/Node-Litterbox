@@ -1,5 +1,5 @@
 # syntax=docker/dockerfile:1.4
-FROM debian:latest
+FROM ubuntu:latest
 
 # Setup base system (we install weston to easily get all the Wayland deps)
 RUN apt-get update && \
